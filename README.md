@@ -33,3 +33,7 @@ See App.js for example of how we form a class component to render.
 ## What is this App all about?
 
 Rolodex that displays user profiles (monsters).
+
+## React.StrictMode
+
+With react 18, `<React.StrictMode>` is now double rendering to catch anything that might be going wrong...

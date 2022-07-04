@@ -1,13 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
 import './index.css';
-import App from './App';
+import AppClass from './App_class_component';
 import reportWebVitals from './reportWebVitals';
+import AppFunctionalComponent from './App_functional_component';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const container = document.getElementById('root');
+const root = createRoot(container);
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <AppClass /> */}
+    <AppFunctionalComponent />
   </React.StrictMode>
 );
 
